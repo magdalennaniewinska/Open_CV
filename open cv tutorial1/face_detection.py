@@ -1,6 +1,6 @@
 import cv2 as cv
 
-img = cv.imread("Source/Photos/lady.jpeg")
+img = cv.imread("/Users/magdalenan/Open_CV/Open_CV/Source/Photos/lady.jpeg")
 #cv.imshow("Person", img)
 
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)

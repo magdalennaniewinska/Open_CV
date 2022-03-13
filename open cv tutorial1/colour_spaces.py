@@ -1,7 +1,7 @@
 import cv2 as cv
 import matplotlib.pyplot as plt
 
-img = cv.imread("Source/Photos/park.jpeg")
+img = cv.imread("/Users/magdalenan/Open_CV/Open_CV/Source/Photos/park.jpeg")
 cv.imshow("Boston", img)
 
 # colour system is system of representing matrix of colours

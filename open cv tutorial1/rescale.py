@@ -16,7 +16,7 @@ def changeRes(width, height):
     capture.set(4, height)
 
 
-capture = cv.VideoCapture("Source/Videos/dog.mp4")
+capture = cv.VideoCapture("/Users/magdalenan/Open_CV/Open_CV/Source/Videos/dog.mp4")
 
 while True:
 

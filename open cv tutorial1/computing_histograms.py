@@ -2,7 +2,7 @@ import cv2 as cv
 import matplotlib.pyplot as plt
 import numpy as np
 
-img = cv.imread("Source/Photos/cats.jpeg")
+img = cv.imread("/Users/magdalenan/Open_CV/Open_CV/Source/Photos/cats.jpeg")
 cv.imshow("Cats", img)
 
 # histograms allow to visualize pixels intensity of image

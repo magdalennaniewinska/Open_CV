@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-img = cv.imread("Source/Photos/park.jpeg")
+img = cv.imread("/Users/magdalenan/Open_CV/Open_CV/Source/Photos/park.jpeg")
 cv.imshow("Park", img)
 
 # split image into colour channels and display in gray scale

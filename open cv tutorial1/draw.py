@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-img = cv.imread("Source/Photos/cat.jpeg")
+img = cv.imread("/Users/magdalenan/Open_CV/Open_CV/Source/Photos/cat.jpeg")
 #cv.imshow("Cat", img)
 
 
