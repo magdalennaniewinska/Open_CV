@@ -49,7 +49,6 @@ class HandDetecteor():
 
 def main():
     pTime = 0
-    cTime = 0
 
     cap = cv.VideoCapture(0)
     detector = HandDetecteor()
