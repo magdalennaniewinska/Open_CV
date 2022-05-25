@@ -36,4 +36,6 @@ while True:
     # Display img
     cv2.putText(img, str(int(fps)), (100, 100), cv2.FONT_HERSHEY_COMPLEX_SMALL, 7, (255, 0, 255), 2)
     cv2.imshow("Image", img)
-    cv2.waitKey(10)
+    # The 'q' button is set as the quiting button
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
